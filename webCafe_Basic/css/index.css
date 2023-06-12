@@ -300,3 +300,62 @@ input, button, textarea, select, option{
 .cross .term-list-thumbnail{
   float: right;
 }
+
+/* 트렌지션 애니메이션 */
+body{
+  margin: 50px;
+}
+
+.gradient-effect{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: yellow linear-gradient(#ccc, #eee);
+  width: 200px;
+}
+
+.spacing-sm{
+  padding: 5px;
+}
+.spacing-md{
+  padding: 10px;
+}
+.spacing-lg{
+  padding: 15px;
+}
+
+.related-title{
+  margin: 0;
+  font-size: 18px;
+}
+
+.accent--primary-color{
+  color: orangered;
+}
+
+.accent-color{
+  color: violet;
+}
+
+.related-list{
+  margin: 10px 0 0 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: #fff;
+  height: 30px;
+  overflow: hidden;
+  transition: height 0.4s, padding-top 0.4s 0.4s;
+}
+
+.related-list a{
+  color: inherit;
+  display: block;
+  padding: 5px 10px 5px 20px;
+  line-height: 25px;
+  
+}
+
+.related-list:hover{
+  box-sizing: border-box;
+  padding: 15px 0;
+  height: 200px;
+}
